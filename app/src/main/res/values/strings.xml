@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mobile Moguls App</string>
+    <string name="app_desc">Mobile Moguls App is an app that was participated in the hackathon</string>
 </resources>
