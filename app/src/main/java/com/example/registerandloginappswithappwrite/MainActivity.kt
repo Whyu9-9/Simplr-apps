@@ -88,4 +88,13 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences.edit().remove("device_os_ver").apply()
         sharedPreferences.edit().remove("user_id").apply()
     }
+    
+    private fun isBooleanAccepted(){
+        val intent = Intent(this@MainActivity, RegisterActivity::class.java)
+        if(1){
+            startActivity(intent)
+        }else{
+            return false
+        }
+    }
 }
