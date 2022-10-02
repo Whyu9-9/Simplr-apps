@@ -85,6 +85,13 @@
         android:layout_height="57dp"
         android:textColor="@color/white"
         android:text="Create Account"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textColor="@color/white"
+        android:text="Cancel"/>
 
     <LinearLayout
         android:layout_marginTop="20dp"
