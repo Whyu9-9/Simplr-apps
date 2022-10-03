@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Name"
+            android:hint="Enter your name..."
             android:drawableEnd="@drawable/user"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Email"
+            android:hint="Enter your email..."
             android:drawableEnd="@drawable/email"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Password"/>
+            android:hint="Enter your password..."/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
