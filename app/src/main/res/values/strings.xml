@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Mobile Moguls App</string>
     <string name="app_desc">Mobile Moguls App is an app that was participated in the hackathon</string>
+    <string name="logo_app">logo app</string>
+    <string name="login">Login</string>
+    <string name="placeholder_input_email">Enter your email</string>
+    <string name="placeholder_input_password">Enter your password</string>
+    <string name="ask_have_account">Don\'t Have an Account?</string>
+    <string name="register">Register</string>
 </resources>
