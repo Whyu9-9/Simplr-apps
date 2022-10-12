@@ -7,4 +7,17 @@
     <string name="placeholder_input_password">Enter your password</string>
     <string name="ask_have_account">Don\'t Have an Account?</string>
     <string name="register">Register</string>
+    <string name="placeholder_input_name">Enter your name</string>
+    <string name="create_account">Create Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="already_account">Already Have an Account?</string>
+    <string name="icon_splashscreen">icon splashscreen</string>
+    <string name="end_session">End Session</string>
+    <string name="device_os_version">Device OS Version:</string>
+    <string name="device_os">Device OS:</string>
+    <string name="device_brand">Device Brand:</string>
+    <string name="device_model">Device Model:</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="user_id">User ID:</string>
+    <string name="welcome_successfully_login">Welcome! \n You have successfully logged \n into the app!</string>
 </resources>

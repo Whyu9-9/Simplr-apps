@@ -12,11 +12,12 @@
         android:layout_marginTop="-30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/appwrite"/>
+        android:src="@drawable/appwrite"
+        android:contentDescription="@string/logo_app" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:textStyle="bold"
         android:textSize="30sp"
         android:textColor="#f02e65"/>
@@ -34,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Enter your name..."
+            android:hint="@string/placeholder_input_name"
             android:drawableEnd="@drawable/user"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -53,13 +54,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Enter your email..."
+            android:hint="@string/placeholder_input_email"
             android:drawableEnd="@drawable/email"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/passwordLayoutRegister"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Enter your password..."/>
+            android:hint="@string/placeholder_input_password"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,14 +84,16 @@
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:textColor="@color/white"
-        android:text="Create Account"/>
+        android:textAllCaps="false"
+        android:text="@string/create_account"/>
     <Button
         android:id="@+id/cancel"
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="57dp"
+        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:text="Cancel"/>
+        android:text="@string/cancel"/>
 
     <LinearLayout
         android:layout_marginTop="20dp"
@@ -100,16 +102,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already Have an Account?"
+            android:text="@string/already_account"
             android:textColor="#a7a7a7"/>
         <TextView
             android:id="@+id/loginActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="#0275db"/>
     </LinearLayout>
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,13 +10,14 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/appwrite"/>
+        android:src="@drawable/appwrite"
+        android:contentDescription="@string/logo_app" />
     <TextView
         android:layout_marginTop="-40dp"
         android:layout_marginBottom="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome! \n You have successfully logged \n into the app!"
+        android:text="@string/welcome_successfully_login"
         android:textSize="17sp"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -32,7 +32,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="User ID: "
+            android:text="@string/user_id"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/userID"
@@ -52,7 +52,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="IP Address: "
+            android:text="@string/ip_address"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/ip"
@@ -72,7 +72,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Device Model: "
+            android:text="@string/device_model"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/deviceMod"
@@ -92,7 +92,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Device Brand: "
+            android:text="@string/device_brand"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/deviceBra"
@@ -112,7 +112,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Device OS: "
+            android:text="@string/device_os"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/OS"
@@ -131,7 +131,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Device OS Version: "
+            android:text="@string/device_os_version"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/OsVer"
@@ -147,7 +147,8 @@
         android:layout_marginTop="50dp"
         android:layout_width="140dp"
         android:layout_height="50dp"
-        android:text="End Session"
+        android:text="@string/end_session"
+        android:textAllCaps="false"
         android:textColor="@color/white"/>
 
 </LinearLayout>
